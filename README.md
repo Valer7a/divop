@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23569751/README.md)
 # DIVOP: Variable-Order Path Classification Model
 
 This repository contains the official code for the **DIVOP** model introduced in the paper:
