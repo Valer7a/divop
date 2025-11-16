@@ -469,8 +469,9 @@ def extract_paths_quantities(data, sequences_basic, max_order, min_support, scal
             #we ordinate the higher orders in the new dataset as the ones in the old dataset
             Frequencies_Store0 = Frequencies_Store0.set_index(['Higher Order', 'Lower Order'])
             Frequencies_Store_final = add_columns(r, Frequencies_Store_final, Frequencies_Store0) #we add JSD High|JSD Low|JSD(Extr,Distr) to the old DataFrame
+    #NOTE!!!! In the need of the dictionary of the distributions to create the network, uncomment the "Distribution_train" from return line, you will have a dictionary usable with the hon library
     #we return the dataframe asking to remove the positives (Type==g) with distances between the lower and higher distributions all equal to zero in every repetition of the cross-validation
-    return Frequencies_Store_final[(((Frequencies_Store_final['JSD(Extr,Distr)']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)1']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)2']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)3']!=0))&(Frequencies_Store_final['Type']=='g'))|(Frequencies_Store_final['Type']=='b')]
+    return Frequencies_Store_final[(((Frequencies_Store_final['JSD(Extr,Distr)']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)1']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)2']!=0)|(Frequencies_Store_final['JSD(Extr,Distr)3']!=0))&(Frequencies_Store_final['Type']=='g'))|(Frequencies_Store_final['Type']=='b')] #,Distribution_train
 
 
 
