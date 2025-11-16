@@ -10,7 +10,7 @@ DIVOP is a model for detecting informative vs. non-informative paths using varia
 
 ## Repository Structure
 
-### **Data/**
+### **data/**
 
 This folder will contain all datasets used for training, validating, and testing the DIVOP model. However, training data are too large to be be uploaded on a GitHub repository, so you can download them from a Drive folder liked below.
 
@@ -54,7 +54,7 @@ This folder will contain all datasets used for training, validating, and testing
        Direct download:  
        https://drive.google.com/uc?export=download&id=13QydayWU0KtsHLvRP9I_TuIjqe4AxOLh  
 
-     After downloading, place these files in the `Data/` folder to reproduce the experiments and run the notebooks.
+     After downloading, place these files in the `data/input` folder to reproduce the experiments and run the notebooks.
 
 2. **Real Flight Data**
 
@@ -70,7 +70,7 @@ This folder will contain all datasets used for training, validating, and testing
 
 ---
 
-## Notebooks/
+## notebooks/
 
 This folder contains the Python library and Jupyter notebooks used throughout the workflow to give example of usage.
 
