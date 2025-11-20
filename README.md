@@ -1,4 +1,4 @@
-# DIVOP: Variable-Order Path Classification Model
+# DIVOP: Detecting Informative Variable-Order Path 
 
 This repository contains the official code for the **DIVOP** model introduced in the paper:
 
