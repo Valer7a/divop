@@ -1,4 +1,4 @@
-# DIVOP: Detecting Informative Variable-Order Path 
+# DIVOP: Detecting Informative Variable-Order Paths
 
 This repository contains the official code for the **DIVOP** model introduced in the paper:
 
